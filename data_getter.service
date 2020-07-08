@@ -1,0 +1,13 @@
+[Unit]
+Description=data_getter route packets form lora server
+After=chirpstack-application-server.service
+StartLimitIntervalSec=5
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=pi
+ExecStart=/usr/bin/data_getter
+
+[Install]
+WantedBy=multi-user.target
