@@ -1,0 +1,9 @@
+*
+!*.h
+!*.cpp
+!*.hpp
+!*.py
+!*.sql
+!gitignore
+!Makefile
+!README.md
